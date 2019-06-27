@@ -35,3 +35,51 @@
 
 1561080206 d:\agus\primer parcial\utn.h
 
+1561091178 source:d:\primer parcial\libreria.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"utn.h"
+	"libreria.h"
+
+1561080206 d:\primer parcial\utn.h
+
+1561090988 d:\primer parcial\libreria.h
+
+1561089327 source:d:\primer parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+	"utn.h"
+
+1561089572 source:d:\primer parcial\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1561242473 source:d:\shared\primer parcial\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1561604386 source:d:\shared\primer parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+	"utn.h"
+
+1561602777 d:\shared\primer parcial\libreria.h
+
+1561243982 d:\shared\primer parcial\utn.h
+
+1561606191 source:d:\shared\primer parcial\libreria.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"utn.h"
+	"libreria.h"
+

@@ -366,7 +366,8 @@ void getValidEmail(char requestMessage[],char errorMessage[], char input[])
     {
         getString(requestMessage,str);
         aux = esEmail(str);
-        if(aux==0){
+        if(aux==0)
+        {
             printf(errorMessage);
         }
     }while(aux==0);
@@ -376,12 +377,14 @@ void getValidEmail(char requestMessage[],char errorMessage[], char input[])
 
 int esEmail (char str[])
 {
-    int i;
+    int i=0;
 
     while(str[i] != '\0')
    {
        if((str[i] == ' ') && (str[i] != '@') && (str[i] != '.') && (str[i] < 'a' || str[i] > 'z') && (str[i] < 'A' || str[i] > 'Z') && (str[i] < '0' || str[i] > '9'))
-           return 0;
+        {
+            return 0;
+        }
        i++;
    }
    return 1;

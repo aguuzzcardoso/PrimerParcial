@@ -23,5 +23,7 @@ void clean_stdin(void);
 void pause(char message[]);
 
 void getValidSex(char requestMessage[],char errorMessage[], char input);
-void getValidTelephono(char requestMessage[],char errorMessage[], char input);
+void getValidTelephono(char requestMessage[],char errorMessage[], char input[]);
+void getValidEmail(char requestMessage[],char errorMessage[], char input[]);
+
 int esEmail(char requestMessage[],char errorMessage[], char input);
